@@ -1,0 +1,35 @@
+<?php
+App::uses('AppController', 'Controller');
+
+/**
+ * EducationlLevel Controller
+ *
+ * @property EducationlLevel $EducationlLevel
+ * @property PaginatorComponent $Paginator
+ * @property SessionComponent $Session
+ */
+class EducationlLevelController extends AppController {
+/**
+ * Models
+ *
+ * @var array
+ */
+	public $uses = array('EducationlLevel');
+/**
+ * Components
+ *
+ * @var array
+ */
+	public $components = array('Paginator','RequestHandler');
+
+
+
+	public function getEducationlLevelList(){
+		$EducationlLevel = $this->EducationlLevel->find('list',array('fields'=>array('id','educationl_level_name')));
+		$this->set(array(
+		    'EducationlLevel' => $EducationlLevel,
+		    '_serialize' => array('EducationlLevel')
+		));
+	}
+
+}

@@ -1,0 +1,1284 @@
+2015-08-03 17:37:34 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [/home/manav/public_html/api/app/Controller/UsersController.php, line 10]
+2015-08-03 17:37:34 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /api/users.json
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/manav/pub...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/manav/pub...', 10, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/manav/pub...', 10, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-03 17:37:46 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [/home/manav/public_html/api/app/Controller/UsersController.php, line 10]
+2015-08-03 17:37:46 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /api/users.json
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/manav/pub...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/manav/pub...', 10, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/manav/pub...', 10, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-03 17:39:56 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [/home/manav/public_html/api/app/Controller/UsersController.php, line 10]
+2015-08-03 17:39:56 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /api/users.json
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/manav/pub...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/manav/pub...', 10, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/manav/pub...', 10, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-03 17:40:33 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /api/users/login
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-08-03 17:44:28 Error: Fatal Error (1): Call to a member function login() on a non-object in [/home/manav/public_html/api/app/Controller/UsersController.php, line 19]
+2015-08-03 17:44:28 Error: [FatalErrorException] Call to a member function login() on a non-object
+Request URL: /api/users/login.json
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/manav/pub...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/manav/pub...', 19, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/manav/pub...', 19, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-03 17:44:59 Error: [MissingControllerException] Controller class Users.loginController could not be found.
+Exception Attributes: array (
+  'class' => 'Users.loginController',
+  'plugin' => NULL,
+)
+Request URL: /api/users.login.json
+Stack Trace:
+#0 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-03 17:46:48 Error: Fatal Error (1): Call to a member function login() on a non-object in [/home/manav/public_html/api/app/Controller/UsersController.php, line 19]
+2015-08-03 17:46:48 Error: [FatalErrorException] Call to a member function login() on a non-object
+Request URL: /api/users/login
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/manav/pub...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/manav/pub...', 19, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/manav/pub...', 19, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-03 17:47:03 Error: [MissingActionException] Action UsersController::add() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'add',
+)
+Request URL: /api/users.login
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-08-03 17:48:32 Error: [MissingControllerException] Controller class Users.loginController could not be found.
+Exception Attributes: array (
+  'class' => 'Users.loginController',
+  'plugin' => NULL,
+)
+Request URL: /api/users.login.json
+Stack Trace:
+#0 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-03 17:48:47 Error: Fatal Error (1): Call to a member function login() on a non-object in [/home/manav/public_html/api/app/Controller/UsersController.php, line 19]
+2015-08-03 17:48:47 Error: [FatalErrorException] Call to a member function login() on a non-object
+Request URL: /api/users/login.json
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/manav/pub...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/manav/pub...', 19, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/manav/pub...', 19, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-03 17:51:09 Error: Fatal Error (1): Call to a member function login() on a non-object in [/home/manav/public_html/api/app/Controller/UsersController.php, line 19]
+2015-08-03 17:51:09 Error: [FatalErrorException] Call to a member function login() on a non-object
+Request URL: /api/users/login.json
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/manav/pub...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/manav/pub...', 19, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/manav/pub...', 19, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-03 18:23:12 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) in [/home/manav/public_html/api/app/Controller/AppController.php, line 40]
+2015-08-03 18:23:12 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /api/users.json
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/manav/pub...', 40)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/manav/pub...', 40, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/manav/pub...', 40, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-04 10:06:26 Error: Fatal Error (1): Call to a member function login() on a non-object in [/home/manav/public_html/api/app/Controller/UsersController.php, line 27]
+2015-08-04 10:06:26 Error: [FatalErrorException] Call to a member function login() on a non-object
+Request URL: /api/users/login.json
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/manav/pub...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/manav/pub...', 27, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/manav/pub...', 27, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-04 10:13:22 Error: [MissingViewException] View file "Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/login.ctp',
+)
+Request URL: /api/users/login
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/manav/public_html/api/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-08-04 10:15:05 Error: [MissingViewException] View file "Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/login.ctp',
+)
+Request URL: /api/users/login
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/manav/public_html/api/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-08-04 10:17:08 Error: [MissingViewException] View file "Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/login.ctp',
+)
+Request URL: /api/users/login
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/manav/public_html/api/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-08-04 10:18:05 Error: [MissingViewException] View file "Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/login.ctp',
+)
+Request URL: /api/users/login
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/manav/public_html/api/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-08-04 10:20:38 Error: Fatal Error (1): Class 'Security' not found in [/home/manav/public_html/api/app/Controller/UsersController.php, line 23]
+2015-08-04 10:20:38 Error: [FatalErrorException] Class 'Security' not found
+Request URL: /api/users/login.json
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'Security...', '/home/manav/pub...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Security...', '/home/manav/pub...', 23, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'Security...', '/home/manav/pub...', 23, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-04 11:06:08 Error: Fatal Error (1): Call to undefined function random_bytes() in [/home/manav/public_html/api/app/Controller/UsersController.php, line 38]
+2015-08-04 11:06:08 Error: [FatalErrorException] Call to undefined function random_bytes()
+Request URL: /api/users/login.json
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/home/manav/pub...', 38)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/home/manav/pub...', 38, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/home/manav/pub...', 38, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-04 15:48:32 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [/home/manav/public_html/api/app/Controller/UsersController.php, line 54]
+2015-08-04 15:48:32 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /api/users/login.json
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/manav/pub...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/manav/pub...', 54, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/manav/pub...', 54, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-05 11:49:44 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'placementportal.courses' doesn't exist
+Request URL: /api/courses.json
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /home/manav/public_html/api/lib/Cake/Model/Datasource/Database/Mysql.php(340): DboSource->_execute('SHOW FULL COLUM...')
+#2 /home/manav/public_html/api/lib/Cake/Model/Model.php(1390): Mysql->describe(Object(AppModel))
+#3 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(2516): Model->schema()
+#4 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(1054): DboSource->fields(Object(AppModel))
+#5 /home/manav/public_html/api/lib/Cake/Model/Model.php(3022): DboSource->read(Object(AppModel), Array)
+#6 /home/manav/public_html/api/lib/Cake/Model/Model.php(2994): Model->_readDataSource('all', Array)
+#7 /home/manav/public_html/api/app/Controller/CoursesController.php(30): Model->find('all')
+#8 [internal function]: CoursesController->index()
+#9 /home/manav/public_html/api/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CoursesController), Array)
+#10 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CoursesController), Object(CakeRequest))
+#12 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-08-05 12:10:05 Error: [MissingActionException] Action SectorsController::2() could not be found.
+Exception Attributes: array (
+  'controller' => 'SectorsController',
+  'action' => '2',
+)
+Request URL: /api/sectors/2.json
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SectorsController), Object(CakeRequest))
+#2 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-08-05 12:14:02 Error: [MissingActionException] Action SectorsController::123() could not be found.
+Exception Attributes: array (
+  'controller' => 'SectorsController',
+  'action' => '123',
+)
+Request URL: /api/sectors/123.json
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SectorsController), Object(CakeRequest))
+#2 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-08-05 12:17:04 Error: [MissingActionException] Action SectorsController::123() could not be found.
+Exception Attributes: array (
+  'controller' => 'SectorsController',
+  'action' => '123',
+)
+Request URL: /api/sectors/123.json
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SectorsController), Object(CakeRequest))
+#2 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-08-05 12:17:29 Error: [MissingActionException] Action SectorsController::123() could not be found.
+Exception Attributes: array (
+  'controller' => 'SectorsController',
+  'action' => '123',
+)
+Request URL: /api/sectors/123.json
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SectorsController), Object(CakeRequest))
+#2 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-08-05 12:19:43 Error: [MissingActionException] Action SectorsController::1() could not be found.
+Exception Attributes: array (
+  'controller' => 'SectorsController',
+  'action' => '1',
+)
+Request URL: /api/sectors/1.json
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SectorsController), Object(CakeRequest))
+#2 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-08-05 12:21:58 Error: [MissingActionException] Action SectorsController::1() could not be found.
+Exception Attributes: array (
+  'controller' => 'SectorsController',
+  'action' => '1',
+)
+Request URL: /api/sectors/1.json
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SectorsController), Object(CakeRequest))
+#2 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-08-05 12:23:31 Error: [MissingActionException] Action SectorsController::1() could not be found.
+Exception Attributes: array (
+  'controller' => 'SectorsController',
+  'action' => '1',
+)
+Request URL: /api/sectors/1.json
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SectorsController), Object(CakeRequest))
+#2 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-08-05 12:40:33 Error: Fatal Error (4): syntax error, unexpected ')' in [/home/manav/public_html/api/app/Controller/SectorsController.php, line 32]
+2015-08-05 12:40:33 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /api/sectors.json
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/manav/pub...', 32)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/manav/pub...', 32, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/manav/pub...', 32, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-05 12:41:04 Error: Fatal Error (4): syntax error, unexpected ')' in [/home/manav/public_html/api/app/Controller/SectorsController.php, line 32]
+2015-08-05 12:41:04 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /api/sectors.json
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/manav/pub...', 32)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/manav/pub...', 32, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/manav/pub...', 32, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-05 12:41:15 Error: Fatal Error (4): syntax error, unexpected ')' in [/home/manav/public_html/api/app/Controller/SectorsController.php, line 32]
+2015-08-05 12:41:15 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /api/sectors.json
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/manav/pub...', 32)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/manav/pub...', 32, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/manav/pub...', 32, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-05 14:18:37 Error: Fatal Error (1): Unsupported operand types in [/home/manav/public_html/api/lib/Cake/Routing/Router.php, line 537]
+2015-08-05 14:18:37 Error: [FatalErrorException] Unsupported operand types
+Request URL: /api/sectors.json?controller=sectors&action=index
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Unsupported ope...', '/home/manav/pub...', 537)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', '/home/manav/pub...', 537, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', '/home/manav/pub...', 537, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-05 14:41:46 Error: [NotFoundException] Invalid sector
+Request URL: /api/sectors/edit.json
+Stack Trace:
+#0 [internal function]: SectorsController->edit()
+#1 /home/manav/public_html/api/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SectorsController), Array)
+#2 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SectorsController), Object(CakeRequest))
+#4 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-08-05 14:41:58 Error: [NotFoundException] Invalid sector
+Request URL: /api/sectors/edit.json
+Stack Trace:
+#0 [internal function]: SectorsController->edit()
+#1 /home/manav/public_html/api/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SectorsController), Array)
+#2 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SectorsController), Object(CakeRequest))
+#4 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-08-05 14:42:29 Error: [NotFoundException] Invalid sector
+Request URL: /api/sectors/edit.json
+Stack Trace:
+#0 [internal function]: SectorsController->edit()
+#1 /home/manav/public_html/api/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SectorsController), Array)
+#2 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SectorsController), Object(CakeRequest))
+#4 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-08-05 14:43:16 Error: [NotFoundException] Invalid sector
+Request URL: /api/sectors/edit.json
+Stack Trace:
+#0 [internal function]: SectorsController->edit()
+#1 /home/manav/public_html/api/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SectorsController), Array)
+#2 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SectorsController), Object(CakeRequest))
+#4 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-08-05 14:45:25 Error: [NotFoundException] Invalid sector
+Request URL: /api/sectors/edit.json
+Stack Trace:
+#0 [internal function]: SectorsController->edit()
+#1 /home/manav/public_html/api/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SectorsController), Array)
+#2 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SectorsController), Object(CakeRequest))
+#4 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-08-05 14:45:54 Error: [NotFoundException] Invalid sector
+Request URL: /api/sectors/edit.json
+Stack Trace:
+#0 [internal function]: SectorsController->edit()
+#1 /home/manav/public_html/api/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SectorsController), Array)
+#2 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SectorsController), Object(CakeRequest))
+#4 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-08-05 14:45:57 Error: [NotFoundException] Invalid sector
+Request URL: /api/sectors/edit.json
+Stack Trace:
+#0 [internal function]: SectorsController->edit()
+#1 /home/manav/public_html/api/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SectorsController), Array)
+#2 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SectorsController), Object(CakeRequest))
+#4 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-08-05 14:56:48 Error: [MissingActionException] Action SectorsController::35() could not be found.
+Exception Attributes: array (
+  'controller' => 'SectorsController',
+  'action' => '35',
+)
+Request URL: /api/sectors/35.json
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SectorsController), Object(CakeRequest))
+#2 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-08-05 14:57:08 Error: [MissingActionException] Action SectorsController::35() could not be found.
+Exception Attributes: array (
+  'controller' => 'SectorsController',
+  'action' => '35',
+)
+Request URL: /api/sectors/35.json
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SectorsController), Object(CakeRequest))
+#2 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-08-05 14:57:17 Error: [MissingActionException] Action SectorsController::35() could not be found.
+Exception Attributes: array (
+  'controller' => 'SectorsController',
+  'action' => '35',
+)
+Request URL: /api/sectors/35.json
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SectorsController), Object(CakeRequest))
+#2 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-08-05 14:57:52 Error: [NotFoundException] Invalid sector
+Request URL: /api/sectors/delete/35.json
+Stack Trace:
+#0 [internal function]: SectorsController->delete('35')
+#1 /home/manav/public_html/api/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SectorsController), Array)
+#2 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SectorsController), Object(CakeRequest))
+#4 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-08-07 11:17:04 Error: Fatal Error (4): syntax error, unexpected ')' in [/home/manav/public_html/api/app/Controller/SectorsController.php, line 64]
+2015-08-07 11:17:04 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /api/sectors/add.json
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/manav/pub...', 64)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/manav/pub...', 64, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/manav/pub...', 64, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-07 12:37:19 Error: Fatal Error (4): syntax error, unexpected ')' in [/home/manav/public_html/api/app/Controller/SectorsController.php, line 65]
+2015-08-07 12:37:19 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /api/sectors.json?controller=sectors&action=index
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/manav/pub...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/manav/pub...', 65, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/manav/pub...', 65, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-07 12:38:44 Error: Fatal Error (4): syntax error, unexpected ')' in [/home/manav/public_html/api/app/Controller/SectorsController.php, line 65]
+2015-08-07 12:38:44 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /api/sectors.json?controller=sectors&action=index
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/manav/pub...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/manav/pub...', 65, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/manav/pub...', 65, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-07 12:38:47 Error: Fatal Error (4): syntax error, unexpected ')' in [/home/manav/public_html/api/app/Controller/SectorsController.php, line 65]
+2015-08-07 12:38:47 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /api/sectors.json?controller=sectors&action=index
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/manav/pub...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/manav/pub...', 65, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/manav/pub...', 65, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-07 12:38:47 Error: Fatal Error (4): syntax error, unexpected ')' in [/home/manav/public_html/api/app/Controller/SectorsController.php, line 65]
+2015-08-07 12:38:47 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /api/sectors.json?controller=sectors&action=index
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/manav/pub...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/manav/pub...', 65, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/manav/pub...', 65, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-07 12:38:48 Error: Fatal Error (4): syntax error, unexpected ')' in [/home/manav/public_html/api/app/Controller/SectorsController.php, line 65]
+2015-08-07 12:38:48 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /api/sectors.json?controller=sectors&action=index
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/manav/pub...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/manav/pub...', 65, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/manav/pub...', 65, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-07 12:38:48 Error: Fatal Error (4): syntax error, unexpected ')' in [/home/manav/public_html/api/app/Controller/SectorsController.php, line 65]
+2015-08-07 12:38:48 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /api/sectors.json?controller=sectors&action=index
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/manav/pub...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/manav/pub...', 65, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/manav/pub...', 65, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-07 12:38:48 Error: Fatal Error (4): syntax error, unexpected ')' in [/home/manav/public_html/api/app/Controller/SectorsController.php, line 65]
+2015-08-07 12:38:48 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /api/sectors.json?controller=sectors&action=index
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/manav/pub...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/manav/pub...', 65, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/manav/pub...', 65, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-07 12:38:49 Error: Fatal Error (4): syntax error, unexpected ')' in [/home/manav/public_html/api/app/Controller/SectorsController.php, line 65]
+2015-08-07 12:38:49 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /api/sectors.json?controller=sectors&action=index
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/manav/pub...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/manav/pub...', 65, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/manav/pub...', 65, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-07 12:38:50 Error: Fatal Error (4): syntax error, unexpected ')' in [/home/manav/public_html/api/app/Controller/SectorsController.php, line 65]
+2015-08-07 12:38:50 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /api/sectors.json?controller=sectors&action=index
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/manav/pub...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/manav/pub...', 65, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/manav/pub...', 65, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-07 12:38:50 Error: Fatal Error (4): syntax error, unexpected ')' in [/home/manav/public_html/api/app/Controller/SectorsController.php, line 65]
+2015-08-07 12:38:50 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /api/sectors.json?controller=sectors&action=index
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/manav/pub...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/manav/pub...', 65, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/manav/pub...', 65, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-07 12:38:50 Error: Fatal Error (4): syntax error, unexpected ')' in [/home/manav/public_html/api/app/Controller/SectorsController.php, line 65]
+2015-08-07 12:38:50 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /api/sectors.json?controller=sectors&action=index
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/manav/pub...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/manav/pub...', 65, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/manav/pub...', 65, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-07 12:38:51 Error: Fatal Error (4): syntax error, unexpected ')' in [/home/manav/public_html/api/app/Controller/SectorsController.php, line 65]
+2015-08-07 12:38:51 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /api/sectors.json?controller=sectors&action=index
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/manav/pub...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/manav/pub...', 65, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/manav/pub...', 65, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-07 12:38:51 Error: Fatal Error (4): syntax error, unexpected ')' in [/home/manav/public_html/api/app/Controller/SectorsController.php, line 65]
+2015-08-07 12:38:51 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /api/sectors.json?controller=sectors&action=index
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/manav/pub...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/manav/pub...', 65, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/manav/pub...', 65, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-07 12:38:51 Error: Fatal Error (4): syntax error, unexpected ')' in [/home/manav/public_html/api/app/Controller/SectorsController.php, line 65]
+2015-08-07 12:38:51 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /api/sectors.json?controller=sectors&action=index
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/manav/pub...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/manav/pub...', 65, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/manav/pub...', 65, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-07 12:38:51 Error: Fatal Error (4): syntax error, unexpected ')' in [/home/manav/public_html/api/app/Controller/SectorsController.php, line 65]
+2015-08-07 12:38:51 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /api/sectors.json?controller=sectors&action=index
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/manav/pub...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/manav/pub...', 65, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/manav/pub...', 65, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-07 12:38:51 Error: Fatal Error (4): syntax error, unexpected ')' in [/home/manav/public_html/api/app/Controller/SectorsController.php, line 65]
+2015-08-07 12:38:51 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /api/sectors.json?controller=sectors&action=index
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/manav/pub...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/manav/pub...', 65, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/manav/pub...', 65, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-07 12:38:51 Error: Fatal Error (4): syntax error, unexpected ')' in [/home/manav/public_html/api/app/Controller/SectorsController.php, line 65]
+2015-08-07 12:38:51 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /api/sectors.json?controller=sectors&action=index
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/manav/pub...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/manav/pub...', 65, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/manav/pub...', 65, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-07 12:38:51 Error: Fatal Error (4): syntax error, unexpected ')' in [/home/manav/public_html/api/app/Controller/SectorsController.php, line 65]
+2015-08-07 12:38:51 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /api/sectors.json?controller=sectors&action=index
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/manav/pub...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/manav/pub...', 65, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/manav/pub...', 65, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-07 12:38:52 Error: Fatal Error (4): syntax error, unexpected ')' in [/home/manav/public_html/api/app/Controller/SectorsController.php, line 65]
+2015-08-07 12:38:52 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /api/sectors.json?controller=sectors&action=index
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/manav/pub...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/manav/pub...', 65, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/manav/pub...', 65, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-07 12:38:52 Error: Fatal Error (4): syntax error, unexpected ')' in [/home/manav/public_html/api/app/Controller/SectorsController.php, line 65]
+2015-08-07 12:38:52 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /api/sectors.json?controller=sectors&action=index
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/manav/pub...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/manav/pub...', 65, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/manav/pub...', 65, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-07 12:38:52 Error: Fatal Error (4): syntax error, unexpected ')' in [/home/manav/public_html/api/app/Controller/SectorsController.php, line 65]
+2015-08-07 12:38:52 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /api/sectors.json?controller=sectors&action=index
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/manav/pub...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/manav/pub...', 65, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/manav/pub...', 65, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-07 12:38:52 Error: Fatal Error (4): syntax error, unexpected ')' in [/home/manav/public_html/api/app/Controller/SectorsController.php, line 65]
+2015-08-07 12:38:52 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /api/sectors.json?controller=sectors&action=index
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/manav/pub...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/manav/pub...', 65, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/manav/pub...', 65, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-07 12:39:15 Error: Fatal Error (4): syntax error, unexpected ')' in [/home/manav/public_html/api/app/Controller/SectorsController.php, line 65]
+2015-08-07 12:39:15 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /api/sectors.json?controller=sectors&action=index
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/manav/pub...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/manav/pub...', 65, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/manav/pub...', 65, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-07 12:40:38 Error: Fatal Error (4): syntax error, unexpected ')' in [/home/manav/public_html/api/app/Controller/SectorsController.php, line 65]
+2015-08-07 12:40:38 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /api/sectors.json
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/manav/pub...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/manav/pub...', 65, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/manav/pub...', 65, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-07 12:41:13 Error: Fatal Error (4): syntax error, unexpected 'true' (T_STRING) in [/home/manav/public_html/api/app/Model/Sector.php, line 49]
+2015-08-07 12:41:13 Error: [FatalErrorException] syntax error, unexpected 'true' (T_STRING)
+Request URL: /api/sectors.json?controller=sectors&action=index
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/manav/pub...', 49)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/manav/pub...', 49, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/manav/pub...', 49, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-07 12:52:51 Error: Fatal Error (4): syntax error, unexpected 'true' (T_STRING) in [/home/manav/public_html/api/app/Model/Sector.php, line 49]
+2015-08-07 12:52:51 Error: [FatalErrorException] syntax error, unexpected 'true' (T_STRING)
+Request URL: /api/sectors.json?controller=sectors&action=index
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/manav/pub...', 49)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/manav/pub...', 49, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/manav/pub...', 49, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-07 12:52:56 Error: Fatal Error (4): syntax error, unexpected 'true' (T_STRING) in [/home/manav/public_html/api/app/Model/Sector.php, line 49]
+2015-08-07 12:52:56 Error: [FatalErrorException] syntax error, unexpected 'true' (T_STRING)
+Request URL: /api/sectors.json
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/manav/pub...', 49)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/manav/pub...', 49, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/manav/pub...', 49, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-07 12:55:47 Error: Fatal Error (4): syntax error, unexpected 'true' (T_STRING) in [/home/manav/public_html/api/app/Model/Sector.php, line 49]
+2015-08-07 12:55:47 Error: [FatalErrorException] syntax error, unexpected 'true' (T_STRING)
+Request URL: /api/sectors.json
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/manav/pub...', 49)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/manav/pub...', 49, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/manav/pub...', 49, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-07 14:41:33 Error: Fatal Error (4): syntax error, unexpected '$full_url' (T_VARIABLE) in [/home/manav/public_html/api/app/Controller/SectorsController.php, line 72]
+2015-08-07 14:41:33 Error: [FatalErrorException] syntax error, unexpected '$full_url' (T_VARIABLE)
+Request URL: /api/sectors/add.json
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/manav/pub...', 72)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/manav/pub...', 72, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/manav/pub...', 72, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-07 15:17:21 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+Request URL: /api/sectors/add.json
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('INSERT INTO `pl...', Array)
+#2 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `pl...')
+#3 /home/manav/public_html/api/lib/Cake/Model/Model.php(1928): DboSource->create(Object(Sector), Array, Array)
+#4 /home/manav/public_html/api/lib/Cake/Model/Model.php(1751): Model->_doSave(Array, Array)
+#5 /home/manav/public_html/api/app/Controller/SectorsController.php(71): Model->save(Array)
+#6 [internal function]: SectorsController->add()
+#7 /home/manav/public_html/api/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SectorsController), Array)
+#8 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SectorsController), Object(CakeRequest))
+#10 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-08-07 15:34:50 Error: [NotFoundException] Invalid sector
+Request URL: /api/sectors/delete/37.json
+Stack Trace:
+#0 [internal function]: SectorsController->delete('37')
+#1 /home/manav/public_html/api/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SectorsController), Array)
+#2 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SectorsController), Object(CakeRequest))
+#4 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-08-07 16:35:18 Error: [MissingViewException] View file "Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/login.ctp',
+)
+Request URL: /api/users/login
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/manav/public_html/api/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-08-10 10:37:54 Error: [MissingViewException] View file "States/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'States/index.ctp',
+)
+Request URL: /api/states.json?controller=states&action=index
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/manav/public_html/api/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(StatesController), Object(CakeRequest))
+#4 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-08-10 10:43:35 Error: [MissingViewException] View file "States/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'States/index.ctp',
+)
+Request URL: /api/states.json?controller=states&action=index
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/manav/public_html/api/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(StatesController), Object(CakeRequest))
+#4 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-08-10 10:45:01 Error: [MissingViewException] View file "States/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'States/index.ctp',
+)
+Request URL: /api/states.json?controller=states&action=index
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/manav/public_html/api/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(StatesController), Object(CakeRequest))
+#4 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-08-10 10:45:38 Error: [MissingViewException] View file "States/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'States/index.ctp',
+)
+Request URL: /api/states.json?controller=states&action=index
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/manav/public_html/api/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(StatesController), Object(CakeRequest))
+#4 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-08-10 10:55:09 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'District.StateId' in 'field list'
+Request URL: /api/states/view/1.json
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Distric...', Array)
+#2 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT `Distric...', Array, Array)
+#3 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(1444): DboSource->fetchAll('SELECT `Distric...', false)
+#4 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(1278): DboSource->_fetchHasMany(Object(State), 'SELECT `Distric...', Array)
+#5 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(1137): DboSource->queryAssociation(Object(State), Object(District), 'hasMany', 'District', Array, Array, true, Array, 0, Array)
+#6 /home/manav/public_html/api/lib/Cake/Model/Model.php(3022): DboSource->read(Object(State), Array)
+#7 /home/manav/public_html/api/lib/Cake/Model/Model.php(2994): Model->_readDataSource('first', Array)
+#8 /home/manav/public_html/api/lib/Cake/Model/Model.php(1630): Model->find('first', Array)
+#9 /home/manav/public_html/api/app/Controller/StatesController.php(54): Model->read(NULL, '1')
+#10 [internal function]: StatesController->view('1')
+#11 /home/manav/public_html/api/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(StatesController), Array)
+#12 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#13 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(StatesController), Object(CakeRequest))
+#14 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2015-08-10 10:57:11 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'District.StateId' in 'field list'
+Request URL: /api/states/view/1.json
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Distric...', Array)
+#2 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT `Distric...', Array, Array)
+#3 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(1444): DboSource->fetchAll('SELECT `Distric...', false)
+#4 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(1278): DboSource->_fetchHasMany(Object(State), 'SELECT `Distric...', Array)
+#5 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(1137): DboSource->queryAssociation(Object(State), Object(District), 'hasMany', 'District', Array, Array, true, Array, 0, Array)
+#6 /home/manav/public_html/api/lib/Cake/Model/Model.php(3022): DboSource->read(Object(State), Array)
+#7 /home/manav/public_html/api/lib/Cake/Model/Model.php(2994): Model->_readDataSource('first', Array)
+#8 /home/manav/public_html/api/lib/Cake/Model/Model.php(1630): Model->find('first', Array)
+#9 /home/manav/public_html/api/app/Controller/StatesController.php(54): Model->read(NULL, '1')
+#10 [internal function]: StatesController->view('1')
+#11 /home/manav/public_html/api/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(StatesController), Array)
+#12 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#13 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(StatesController), Object(CakeRequest))
+#14 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2015-08-10 11:07:00 Error: Fatal Error (1): Call to a member function delete() on a non-object in [/home/manav/public_html/api/app/Controller/StatesController.php, line 121]
+2015-08-10 11:07:00 Error: [FatalErrorException] Call to a member function delete() on a non-object
+Request URL: /api/states/delete/16.json
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/manav/pub...', 121)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/manav/pub...', 121, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/manav/pub...', 121, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-10 11:22:15 Error: [MissingViewException] View file "Districts/json/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Districts/json/view.ctp',
+)
+Request URL: /api/districts/view/11.json
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/View/JsonView.php(107): View->_getViewFileName(NULL)
+#1 /home/manav/public_html/api/lib/Cake/Controller/Controller.php(960): JsonView->render(NULL, NULL)
+#2 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(DistrictsController), Object(CakeRequest))
+#4 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-08-11 11:06:23 Error: [MissingActionException] Action StatesController::1() could not be found.
+Exception Attributes: array (
+  'controller' => 'StatesController',
+  'action' => '1',
+)
+Request URL: /api/states/1.json
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(StatesController), Object(CakeRequest))
+#2 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-08-11 12:25:41 Error: [MissingControllerException] Controller class ExcelsController could not be found.
+Exception Attributes: array (
+  'class' => 'ExcelsController',
+  'plugin' => NULL,
+)
+Request URL: /api/excels/upload_result/6.json
+Stack Trace:
+#0 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-11 12:27:21 Error: [MissingControllerException] Controller class ExcelsController could not be found.
+Exception Attributes: array (
+  'class' => 'ExcelsController',
+  'plugin' => NULL,
+)
+Request URL: /api/excels/upload_result/6.json
+Stack Trace:
+#0 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-11 12:28:24 Error: [MissingControllerException] Controller class ExcelsController could not be found.
+Exception Attributes: array (
+  'class' => 'ExcelsController',
+  'plugin' => NULL,
+)
+Request URL: /api/excels/upload_result/6.json
+Stack Trace:
+#0 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-11 12:28:26 Error: [MissingControllerException] Controller class ExcelsController could not be found.
+Exception Attributes: array (
+  'class' => 'ExcelsController',
+  'plugin' => NULL,
+)
+Request URL: /api/excels/upload_result/6.json
+Stack Trace:
+#0 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-11 12:29:13 Error: [MissingControllerException] Controller class ExcelsController could not be found.
+Exception Attributes: array (
+  'class' => 'ExcelsController',
+  'plugin' => NULL,
+)
+Request URL: /api/excels/upload_result/6.json
+Stack Trace:
+#0 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-11 12:29:49 Error: [MissingViewException] View file "Excels/upload_result.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Excels/upload_result.ctp',
+)
+Request URL: /api/excels/upload_result/6.json
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/manav/public_html/api/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ExcelsController), Object(CakeRequest))
+#4 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-08-11 12:34:40 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'CentreDistrict.district_name' in 'field list'
+Request URL: /api/sdms_data.json
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `SdmsDat...', Array)
+#2 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT `SdmsDat...', Array, Array)
+#3 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `SdmsDat...', false)
+#4 /home/manav/public_html/api/lib/Cake/Model/Model.php(3022): DboSource->read(Object(SdmsData), Array)
+#5 /home/manav/public_html/api/lib/Cake/Model/Model.php(2994): Model->_readDataSource('all', Array)
+#6 /home/manav/public_html/api/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /home/manav/public_html/api/app/Controller/SdmsDataController.php(31): PaginatorComponent->paginate()
+#8 [internal function]: SdmsDataController->index()
+#9 /home/manav/public_html/api/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SdmsDataController), Array)
+#10 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SdmsDataController), Object(CakeRequest))
+#12 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-08-11 12:40:30 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'CentreDistrict.district_name' in 'field list'
+Request URL: /api/sdms_data.json
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `SdmsDat...', Array)
+#2 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT `SdmsDat...', Array, Array)
+#3 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `SdmsDat...', false)
+#4 /home/manav/public_html/api/lib/Cake/Model/Model.php(3022): DboSource->read(Object(SdmsData), Array)
+#5 /home/manav/public_html/api/lib/Cake/Model/Model.php(2994): Model->_readDataSource('all', Array)
+#6 /home/manav/public_html/api/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /home/manav/public_html/api/app/Controller/SdmsDataController.php(31): PaginatorComponent->paginate()
+#8 [internal function]: SdmsDataController->index()
+#9 /home/manav/public_html/api/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SdmsDataController), Array)
+#10 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SdmsDataController), Object(CakeRequest))
+#12 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-08-11 12:41:27 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'CentreDistrict.district_name' in 'field list'
+Request URL: /api/sdms_data.json
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `SdmsDat...', Array)
+#2 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT `SdmsDat...', Array, Array)
+#3 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `SdmsDat...', false)
+#4 /home/manav/public_html/api/lib/Cake/Model/Model.php(3022): DboSource->read(Object(SdmsData), Array)
+#5 /home/manav/public_html/api/lib/Cake/Model/Model.php(2994): Model->_readDataSource('all', Array)
+#6 /home/manav/public_html/api/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /home/manav/public_html/api/app/Controller/SdmsDataController.php(31): PaginatorComponent->paginate()
+#8 [internal function]: SdmsDataController->index()
+#9 /home/manav/public_html/api/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SdmsDataController), Array)
+#10 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SdmsDataController), Object(CakeRequest))
+#12 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-08-11 12:43:23 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'CentreDistrict.district_name' in 'field list'
+Request URL: /api/sdms_data.json
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `SdmsDat...', Array)
+#2 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT `SdmsDat...', Array, Array)
+#3 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `SdmsDat...', false)
+#4 /home/manav/public_html/api/lib/Cake/Model/Model.php(3022): DboSource->read(Object(SdmsData), Array)
+#5 /home/manav/public_html/api/lib/Cake/Model/Model.php(2994): Model->_readDataSource('all', Array)
+#6 /home/manav/public_html/api/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /home/manav/public_html/api/app/Controller/SdmsDataController.php(31): PaginatorComponent->paginate()
+#8 [internal function]: SdmsDataController->index()
+#9 /home/manav/public_html/api/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SdmsDataController), Array)
+#10 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SdmsDataController), Object(CakeRequest))
+#12 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-08-11 12:44:38 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'CentreDistrict.district_name' in 'field list'
+Request URL: /api/sdms_data.json
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `SdmsDat...', Array)
+#2 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT `SdmsDat...', Array, Array)
+#3 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `SdmsDat...', false)
+#4 /home/manav/public_html/api/lib/Cake/Model/Model.php(3022): DboSource->read(Object(SdmsData), Array)
+#5 /home/manav/public_html/api/lib/Cake/Model/Model.php(2994): Model->_readDataSource('all', Array)
+#6 /home/manav/public_html/api/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /home/manav/public_html/api/app/Controller/SdmsDataController.php(31): PaginatorComponent->paginate()
+#8 [internal function]: SdmsDataController->index()
+#9 /home/manav/public_html/api/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SdmsDataController), Array)
+#10 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SdmsDataController), Object(CakeRequest))
+#12 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-08-11 12:46:00 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'CentreDistrict.district_name' in 'field list'
+Request URL: /api/sdms_data.json
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `SdmsDat...', Array)
+#2 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT `SdmsDat...', Array, Array)
+#3 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `SdmsDat...', false)
+#4 /home/manav/public_html/api/lib/Cake/Model/Model.php(3022): DboSource->read(Object(SdmsData), Array)
+#5 /home/manav/public_html/api/lib/Cake/Model/Model.php(2994): Model->_readDataSource('all', Array)
+#6 /home/manav/public_html/api/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /home/manav/public_html/api/app/Controller/SdmsDataController.php(31): PaginatorComponent->paginate()
+#8 [internal function]: SdmsDataController->index()
+#9 /home/manav/public_html/api/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SdmsDataController), Array)
+#10 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SdmsDataController), Object(CakeRequest))
+#12 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-08-11 13:55:33 Error: Fatal Error (4): syntax error, unexpected 's' (T_STRING), expecting ')' in [/home/manav/public_html/api/app/Controller/SectorsController.php, line 67]
+2015-08-11 13:55:33 Error: [FatalErrorException] syntax error, unexpected 's' (T_STRING), expecting ')'
+Request URL: /api/sectors.json?controller=sectors&action=index
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/manav/pub...', 67)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/manav/pub...', 67, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/manav/pub...', 67, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-11 13:55:40 Error: Fatal Error (4): syntax error, unexpected 's' (T_STRING), expecting ')' in [/home/manav/public_html/api/app/Controller/SectorsController.php, line 67]
+2015-08-11 13:55:40 Error: [FatalErrorException] syntax error, unexpected 's' (T_STRING), expecting ')'
+Request URL: /api/sectors.json?controller=sectors&action=index
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/manav/pub...', 67)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/manav/pub...', 67, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/manav/pub...', 67, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-11 13:55:47 Error: Fatal Error (4): syntax error, unexpected 's' (T_STRING), expecting ')' in [/home/manav/public_html/api/app/Controller/SectorsController.php, line 67]
+2015-08-11 13:55:47 Error: [FatalErrorException] syntax error, unexpected 's' (T_STRING), expecting ')'
+Request URL: /api/sectors.json?controller=sectors&action=index
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/manav/pub...', 67)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/manav/pub...', 67, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/manav/pub...', 67, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-11 13:55:53 Error: Fatal Error (4): syntax error, unexpected 's' (T_STRING), expecting ')' in [/home/manav/public_html/api/app/Controller/SectorsController.php, line 67]
+2015-08-11 13:55:53 Error: [FatalErrorException] syntax error, unexpected 's' (T_STRING), expecting ')'
+Request URL: /api/sectors.json?controller=sectors&action=index
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/manav/pub...', 67)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/manav/pub...', 67, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/manav/pub...', 67, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-11 13:56:11 Error: Fatal Error (4): syntax error, unexpected 's' (T_STRING), expecting ')' in [/home/manav/public_html/api/app/Controller/SectorsController.php, line 67]
+2015-08-11 13:56:11 Error: [FatalErrorException] syntax error, unexpected 's' (T_STRING), expecting ')'
+Request URL: /api/sectors.json
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/manav/pub...', 67)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/manav/pub...', 67, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/manav/pub...', 67, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-11 14:03:14 Error: [MissingActionException] Action ExcelsController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'ExcelsController',
+  'action' => 'index',
+)
+Request URL: /api/excels.json
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ExcelsController), Object(CakeRequest))
+#2 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-08-11 15:29:39 Error: [MissingControllerException] Controller class EducationLevelController could not be found.
+Exception Attributes: array (
+  'class' => 'EducationLevelController',
+  'plugin' => NULL,
+)
+Request URL: /api/education_level/getEducationLevelList.json
+Stack Trace:
+#0 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-11 15:30:13 Error: [MissingActionException] Action EducationLevelController::getEducationLevelList() could not be found.
+Exception Attributes: array (
+  'controller' => 'EducationLevelController',
+  'action' => 'getEducationLevelList',
+)
+Request URL: /api/education_level/getEducationLevelList.json
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(EducationLevelController), Object(CakeRequest))
+#2 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-08-11 15:30:50 Error: [MissingTableException] Table educationl_levels for model EducationlLevel was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'educationl_levels',
+  'class' => 'EducationlLevel',
+  'ds' => 'default',
+)
+Request URL: /api/education_level/getEducationLevelList.json
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Model/Model.php(3644): Model->setSource('educationl_leve...')
+#1 /home/manav/public_html/api/lib/Cake/Model/Model.php(3022): Model->getDataSource()
+#2 /home/manav/public_html/api/lib/Cake/Model/Model.php(2994): Model->_readDataSource('list', Array)
+#3 /home/manav/public_html/api/app/Controller/EducationLevelController.php(28): Model->find('list', Array)
+#4 [internal function]: EducationLevelController->getEducationLevelList()
+#5 /home/manav/public_html/api/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EducationLevelController), Array)
+#6 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(EducationLevelController), Object(CakeRequest))
+#8 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2015-08-11 15:32:07 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'EducationLevel.educationl_level_name' in 'field list'
+Request URL: /api/education_level/getEducationLevelList.json
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Educati...', Array)
+#2 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT `Educati...', Array, Array)
+#3 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Educati...', false)
+#4 /home/manav/public_html/api/lib/Cake/Model/Model.php(3022): DboSource->read(Object(EducationLevel), Array)
+#5 /home/manav/public_html/api/lib/Cake/Model/Model.php(2994): Model->_readDataSource('list', Array)
+#6 /home/manav/public_html/api/app/Controller/EducationLevelController.php(28): Model->find('list', Array)
+#7 [internal function]: EducationLevelController->getEducationLevelList()
+#8 /home/manav/public_html/api/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EducationLevelController), Array)
+#9 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(EducationLevelController), Object(CakeRequest))
+#11 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-08-12 10:26:45 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/home/manav/public_html/api/app/Controller/SdmsDataController.php, line 57]
+2015-08-12 10:26:45 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /api/sdms_data/view/1.json
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/manav/pub...', 57)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/manav/pub...', 57, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/manav/pub...', 57, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-12 10:26:53 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/home/manav/public_html/api/app/Controller/SdmsDataController.php, line 57]
+2015-08-12 10:26:53 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /api/sdms_data.json?controller=sdms_data&action=index
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/manav/pub...', 57)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/manav/pub...', 57, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/manav/pub...', 57, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-12 10:27:35 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/home/manav/public_html/api/app/Controller/SdmsDataController.php, line 57]
+2015-08-12 10:27:35 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /api/sdms_data.json?controller=sdms_data&action=index
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/manav/pub...', 57)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/manav/pub...', 57, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/manav/pub...', 57, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-12 15:59:01 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Skill.id' in 'on clause'
+Request URL: /api/sdms_data/view/1.json
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `SdmsDat...', Array)
+#2 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT `SdmsDat...', Array, Array)
+#3 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `SdmsDat...', false)
+#4 /home/manav/public_html/api/lib/Cake/Model/Model.php(3022): DboSource->read(Object(SdmsData), Array)
+#5 /home/manav/public_html/api/lib/Cake/Model/Model.php(2994): Model->_readDataSource('first', Array)
+#6 /home/manav/public_html/api/lib/Cake/Model/Model.php(1630): Model->find('first', Array)
+#7 /home/manav/public_html/api/app/Controller/SdmsDataController.php(47): Model->read(NULL, '1')
+#8 [internal function]: SdmsDataController->view('1')
+#9 /home/manav/public_html/api/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SdmsDataController), Array)
+#10 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SdmsDataController), Object(CakeRequest))
+#12 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-08-12 15:59:02 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Skill.id' in 'on clause'
+Request URL: /api/sdms_data/view/1.json
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `SdmsDat...', Array)
+#2 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT `SdmsDat...', Array, Array)
+#3 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `SdmsDat...', false)
+#4 /home/manav/public_html/api/lib/Cake/Model/Model.php(3022): DboSource->read(Object(SdmsData), Array)
+#5 /home/manav/public_html/api/lib/Cake/Model/Model.php(2994): Model->_readDataSource('first', Array)
+#6 /home/manav/public_html/api/lib/Cake/Model/Model.php(1630): Model->find('first', Array)
+#7 /home/manav/public_html/api/app/Controller/SdmsDataController.php(47): Model->read(NULL, '1')
+#8 [internal function]: SdmsDataController->view('1')
+#9 /home/manav/public_html/api/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SdmsDataController), Array)
+#10 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SdmsDataController), Object(CakeRequest))
+#12 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-08-12 15:59:40 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Skill.id' in 'on clause'
+Request URL: /api/sdms_data/view/1.json
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `SdmsDat...', Array)
+#2 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT `SdmsDat...', Array, Array)
+#3 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `SdmsDat...', false)
+#4 /home/manav/public_html/api/lib/Cake/Model/Model.php(3022): DboSource->read(Object(SdmsData), Array)
+#5 /home/manav/public_html/api/lib/Cake/Model/Model.php(2994): Model->_readDataSource('first', Array)
+#6 /home/manav/public_html/api/lib/Cake/Model/Model.php(1630): Model->find('first', Array)
+#7 /home/manav/public_html/api/app/Controller/SdmsDataController.php(47): Model->read(NULL, '1')
+#8 [internal function]: SdmsDataController->view('1')
+#9 /home/manav/public_html/api/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SdmsDataController), Array)
+#10 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SdmsDataController), Object(CakeRequest))
+#12 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-08-12 16:01:07 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Skill.id' in 'on clause'
+Request URL: /api/sdms_data/view/1.json
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `SdmsDat...', Array)
+#2 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT `SdmsDat...', Array, Array)
+#3 /home/manav/public_html/api/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `SdmsDat...', false)
+#4 /home/manav/public_html/api/lib/Cake/Model/Model.php(3022): DboSource->read(Object(SdmsData), Array)
+#5 /home/manav/public_html/api/lib/Cake/Model/Model.php(2994): Model->_readDataSource('first', Array)
+#6 /home/manav/public_html/api/lib/Cake/Model/Model.php(1630): Model->find('first', Array)
+#7 /home/manav/public_html/api/app/Controller/SdmsDataController.php(47): Model->read(NULL, '1')
+#8 [internal function]: SdmsDataController->view('1')
+#9 /home/manav/public_html/api/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SdmsDataController), Array)
+#10 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /home/manav/public_html/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SdmsDataController), Object(CakeRequest))
+#12 /home/manav/public_html/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-08-13 09:58:18 Error: Fatal Error (4): syntax error, unexpected '{' in [/home/manav/public_html/api/app/Controller/SdmsDataController.php, line 105]
+2015-08-13 09:58:18 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /api/sdms_data.json?controller=sdms_data&action=index
+Stack Trace:
+#0 /home/manav/public_html/api/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/manav/pub...', 105)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/manav/pub...', 105, Array)
+#2 /home/manav/public_html/api/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/manav/pub...', 105, Array)
+#3 /home/manav/public_html/api/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

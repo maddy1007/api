@@ -1,0 +1,129 @@
+<?php
+App::uses('AppController', 'Controller');
+
+/**
+ * Sectors Controller
+ *
+ * @property Sector $Sector
+ * @property PaginatorComponent $Paginator
+ * @property SessionComponent $Session
+ */
+class SectorsController extends AppController {
+/**
+ * Models
+ *
+ * @var array
+ */
+	public $uses = array('Sector','Excel');
+/**
+ * Components
+ *
+ * @var array
+ */
+	public $components = array('Paginator','RequestHandler');
+	
+	
+/**
+ * index method
+ *
+ * @return void
+ */
+	public function index() {
+		$this->Sector->recursive = 0;
+		if(!empty($_GET['named']))
+			$this->request->params = $_GET;		
+		$sectors = $this->Paginator->paginate();
+		$this->set(array(
+		    'Sector' => $sectors,
+		    'params' => $this->params,
+		    '_serialize' => array('Sector','params')
+		));
+	}
+
+/**
+ * view method
+ *
+ * @throws NotFoundException
+ * @param string $id
+ * @return void
+ */
+	public function view($id) {
+		$sector = $this->Sector->read(null,$id);
+		$image = base64_encode(file_get_contents(WWW_ROOT."uploads/sectorImg/".$sector['Sector']['image']));
+		$sector['Sector']['image_code'] = $image; 
+		$this->set(array(
+		    'Sector' => $sector,
+		    '_serialize' => array('Sector')
+		));
+	}
+
+/**
+ * add method
+ *
+ * @return void
+ */
+	public function add() {
+		if ($this->request->is('post')) {
+			$chk = $this->Sector->find('first',array('conditions'=>array('sector_name'=>$this->request->data['Sector']['sector_name'])));
+			if(empty($chk)){
+				if(!empty($this->request->data['Sector']['image'])){
+					$filename = date('Ymdhis').'_'.$this->request->data['Sector']['file_name'];
+					$url = '/uploads/sectorImg/'.$filename;
+					file_put_contents(WWW_ROOT.$url, base64_decode($this->request->data['Sector']['image']));
+					$this->request->data['Sector']['image'] = $filename;
+				}
+				$this->Sector->create();
+				if ($this->Sector->save($this->request->data)) {
+					$message['status']="Sector Added Successfully";
+				} else {
+					$message['status']="Some Error Occured.";
+				}
+			}	
+			else {
+				$message['status']='Duplicate Entry for Sector';
+			}			
+		}
+		else {
+			$message['status']='No Data found';
+		}
+		$this->set(array(
+		    'message' => $message,
+		    '_serialize' => array('message')
+		));
+	}
+
+
+
+/**
+ * delete method
+ *
+ * @throws NotFoundException
+ * @param string $id
+ * @return void
+ */
+	public function delete($id = null) {
+		$this->Sector->id = $id;
+		if (!$this->Sector->exists()) {
+			throw new NotFoundException(__('Invalid sector'));
+		}
+		$this->request->allowMethod('post', 'delete');
+		if ($this->Sector->delete()) {
+			$message['status'] = "Sector Deleted Successfully";
+		} else {
+			$message['status'] = "Some Error Occured.";
+		}
+		$this->set(array(
+		    'message' => $message,
+		    '_serialize' => array('message')
+		));
+	}
+
+	public function getSectorList(){
+		$sectors = $this->Sector->find('list',array('fields'=>array('id','sector_name')));
+		$this->set(array(
+		    'Sectors' => $sectors,
+		    '_serialize' => array('Sectors')
+		));
+	}
+
+}
